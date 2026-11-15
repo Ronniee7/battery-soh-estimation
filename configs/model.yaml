@@ -1,0 +1,15 @@
+models:
+  baseline:
+    name: linear_regression
+
+  cnn:
+    name: cnn_1d
+    channels: [32, 64]
+    kernel_size: 3
+    dropout: 0.2
+
+  lstm:
+    name: lstm
+    hidden_size: 32
+    num_layers: 1
+    dropout: 0.2

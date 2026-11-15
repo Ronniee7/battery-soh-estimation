@@ -1,0 +1,20 @@
+dataset:
+  name: nasa_lithium_ion_battery_aging
+  raw_directory: data/raw
+  interim_directory: data/interim
+  processed_directory: data/processed
+
+  batteries:
+    - B0053
+    - B0054
+    - B0055
+    - B0056
+
+  file_format: mat
+
+  operation_types:
+    - charge
+    - discharge
+    - impedance
+
+  ambient_temperature_celsius: 4
