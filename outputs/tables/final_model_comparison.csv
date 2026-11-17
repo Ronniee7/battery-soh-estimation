@@ -1,0 +1,6 @@
+,MAE,MAE,RMSE,RMSE,R2,R2,training_time_s,training_time_s
+,mean,std,mean,std,mean,std,mean,std
+model,,,,,,,,
+1D CNN,7.0166,2.2183,7.4079,2.1085,-1.242,0.7688,1.9854,0.2586
+LSTM,6.6233,2.3975,7.5959,2.4536,-1.4671,1.3613,11.7885,2.6403
+Linear Regression,3.6629,1.1957,4.4475,1.1126,0.1258,0.4154,,
